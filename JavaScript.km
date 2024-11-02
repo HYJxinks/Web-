@@ -1,0 +1,269 @@
+{
+    "root": {
+        "data": {
+            "id": "d55i4zyyutk0",
+            "created": 1729921913669,
+            "text": "JavaScript"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d55i5gtf6w00",
+                    "created": 1729921950339,
+                    "text": "什么是js"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d55i5nred140",
+                            "created": 1729921965455,
+                            "text": "编写出来的程序叫“脚本”"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55i6ic9a2w0",
+                            "created": 1729922032019,
+                            "text": "需要使用引擎才可以运行（如：V8、SpiderMonkey）"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55oktglddc0",
+                            "created": 1729940079984,
+                            "text": "特点：不能对CPU、内存进行底层访问；不能读写、复制硬盘文件；通信不同的标签页"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55onn424tc0",
+                            "created": 1729940301258,
+                            "text": "开发者工具:console"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d55oomkumfs0",
+                    "created": 1729940378460,
+                    "text": "语言特性"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d55ooyib4y80",
+                            "created": 1729940404428,
+                            "text": "当你有大量JavaScript代码时放入一个单独的文件，通过src来添加到html文件中，但是如果设置了src，标签中的内容会被忽略"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55orn45xjk0",
+                            "created": 1729940614721,
+                            "text": "当存在换行符时，大多数情况下会自动分号插入，但是很多情况下最好不要省略分号"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55ot6v12140",
+                            "created": 1729940736068,
+                            "text": "单行注释是//，多行注释是/* */"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55ov6960000",
+                            "created": 1729940891474,
+                            "text": "严格模式 use strict（一般放在代码顶部）"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d55p4zc4ly80",
+                    "created": 1729941660058,
+                    "text": "语法"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d55p53eki6g0",
+                            "created": 1729941668912,
+                            "text": "let：创建变量，由于是弱类型语言，所以可以不用int、char、double等关键字"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55p67j89400",
+                            "created": 1729941756265,
+                            "text": "const：定义一个常量"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55panil40g0",
+                            "created": 1729942104512,
+                            "text": "Infinity：表示无穷大"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55pb1rcujs0",
+                            "created": 1729942135517,
+                            "text": "NaN：表示一个计算错误"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55pb9oyj6o0",
+                            "created": 1729942152786,
+                            "text": "string：字符串类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55pdb3yqc00",
+                            "created": 1729942312599,
+                            "text": "typeof：返回参数的数据类型"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "d55ppl1jbmo0",
+                            "created": 1729943274590,
+                            "text": "交互",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d55p861rv6o0",
+                                    "created": 1729941909762,
+                                    "text": "alert（）：利用模态窗显示内容"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55ppr5o5000",
+                                    "created": 1729943287900,
+                                    "text": "prompt（title，[default]），其中title是显示给用户的文本，default是input框的初始值，如果用户没有输入，会返回null"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55pqtcalx40",
+                                    "created": 1729943371019,
+                                    "text": "confirm（question）：显示一个带有文本的确定和取消的模态窗口，点击确定会返回true，反之"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d55pxeo212o0",
+                            "created": 1729943887627,
+                            "text": "类型转换"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d55pxjejo9s0",
+                                    "created": 1729943897936,
+                                    "text": "String（）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55q7l7bmpc0",
+                                    "created": 1729944685495,
+                                    "text": "Number（）；一元运算符+，转化非数字但对数字无效"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55q7ufaoj40",
+                                    "created": 1729944705568,
+                                    "text": "Boolean（）（任何非空字符都是true）"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55qo9lhfn40",
+                                    "created": 1729945992420,
+                                    "text": "parseInt（）：转换为整数"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55qqzhn64w0",
+                                    "created": 1729946205513,
+                                    "text": "parseFloat（）：转换为小数，如果后面加了.toFixed（1）意思就是保留一位小数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d55q7wgnf5s0",
+                            "created": 1729944710003,
+                            "text": "基础运算符"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d55q82ypdnk0",
+                                    "created": 1729944724156,
+                                    "text": "取余%"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55q8rj06j40",
+                                    "created": 1729944777626,
+                                    "text": "求幂**：a**b为求a的b次幂"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d55qd7zewrc0",
+                                    "created": 1729945126903,
+                                    "text": "一元运算符-：用于数字时，数字变负数；用于非数字时，先转化为数字再取负数"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
