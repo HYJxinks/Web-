@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <title>表单示例</title>
+    </head>
+    <body>
+        <form>
+            <p><label for="input1">文本输入框：</label><input id="innput1" name="name1"/></p>  <!--输入的值储存在name1中;加了label会标准-->
+            <p>密码框<input type="password" name="name2"></p>
+            <p>邮箱地址<input type="email" name="name3"></p>
+            <p>日期<input type="date" name="name4"></p>
+            <p>时间<input type="time" name="name5"></p>
+            <p>单选按钮<input type="radio" name="name6" value="r1"/>radio1 <input type="radio" name="name6" value="r2"/>radio2</p>  <!--加了name之后可以实现单选-->
+            <p>复选框<input type="checkbox" name="name7" value="c1">checkbox
+            <input type="checkbox" name="name7" value="c2">checkbox
+            <input type="checkbox" name="name7" value="c3">checkbox</p>
+            <p>下拉列表<select name="name8" multiple>
+                <option value="o1">option1</option>
+                <option value="o2" selected>option2</option>
+                <option value="o3">option3</option></select>
+            </p>
+            
+            
+            
+            
+            
+            <p>提交<input type="submit" value="提交"><input type="reset" value="重置"></p>
+        </form>
+    </body>
+</html>

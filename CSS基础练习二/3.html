@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>提示框</title>
+    <style>
+        body {
+            background: lightgrey;
+        }
+        /* 1.设置.box样式：宽500，高300，圆边框border-radius：8px，相对定位，top150，水平居中margin:0 auto */
+        .box {
+            width: 500px;
+            height: 300px;
+            background: white;
+            border-radius: 8px;
+            position: relative;
+            margin: 0 auto;
+            top: 150px;
+        }
+    </style>
+</head>
+<body>
+<!-- 1.提示框 -->
+<div class="box">
+    <!-- 2.提示框标题 -->
+    <div class="box-title">
+        <h3>系统提示</h3>
+        <a href="#">×</a>
+    </div>
+    <!-- 3.提示框内容 -->
+    <div class="box-content">亲，确定这么做吗？</div>
+    <!-- 4.提示框按钮 -->
+    <div class="box-button">
+        <input type="button" value="取消">
+        <input type="button" value="确定">
+    </div>
+</div>
+</body>
+</html>
