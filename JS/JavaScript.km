@@ -258,6 +258,59 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5l2ms6miy80",
+                            "created": 1731503128821,
+                            "text": "函数function"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5l2nwz5gv40",
+                                    "created": 1731503217617,
+                                    "text": "创建"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5l2o0zs4e00",
+                                            "created": 1731503226363,
+                                            "text": "new操作符",
+                                            "note": "function User(name) {\n  this.name = name;\n  this.isAdmin = false;\n}\n\nlet user = new User(\"Jack\");\n"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5l2qoep2ww0",
+                                            "created": 1731503434059,
+                                            "text": "同等效果写法",
+                                            "note": "let user = {\n  name: \"Jack\",\n  isAdmin: false\n};"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5l2n9g0g740",
+                            "created": 1731503166394,
+                            "text": "对象Object"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5l2ndon27k0",
+                                    "created": 1731503175623,
+                                    "text": "topic"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
