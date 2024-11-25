@@ -1,0 +1,40 @@
+{
+    "root": {
+        "data": {
+            "id": "d5v446wncbc0",
+            "created": 1732522913737,
+            "text": "CSS3",
+            "expandState": "expand"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "d5v3ptq0ks80",
+                    "created": 1732521787940,
+                    "text": "文本属性"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5v3pzw3k000",
+                            "created": 1732521801368,
+                            "text": "字体类型font-family"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "d5v3pxf7kmg0",
+                    "created": 1732521795993,
+                    "text": "topic"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

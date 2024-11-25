@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOM事件模型</title>
+    </head>
+    <body>
+        <button id="btn1" onclick="handler1(this.innerHTML)">按钮1</button>
+        <button id="btn2">按钮2</button>
+        <button id="btn3">按钮3</button>
+        <button id="btn4">按钮4</button>
+    </body>
+    <script>
+        //model 1
+        function handler1(content){
+            console.log(content);
+        }
+        //model 2
+        const byn2 = document.getElementById("btn2");
+        btn2.onclick=handler2; //只能有一个值，同一个事件不能有多个处理函数
+        function handler2(){
+            console.log(this.innerHTML);
+        }
+        //model 3
+        const btn3=document.getElementById("btn3");
+        btn3.addEventListener("click",handler3); //addEventListenner优点：同一个事件可以有多个处理函数
+        function handler3(event){ //event事件对象
+            console.log(event.target.innerHTML); //target事件源
+        }
+        btn3.addEventListener("click",(event)=>{
+            console.log("other handler");
+        });
+        btn3.removeEventListener("click",handler3); //取消事件监听
+
+        //model 4
+        const btn4 = document.getElementById("btn4");
+        const handleObject = {
+            handleEvent:function(event){
+                console.log(event.target.innerHTML);
+            },
+        };
+        btn4.addEventListener("click",handleObject);
+    </script>
+</html>

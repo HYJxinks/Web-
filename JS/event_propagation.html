@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM 事件冒泡</title>
+        <style>
+            #container{
+                height: 400px;
+                margin: 50px;
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container"><botton id="btn">按钮</botton></div>
+        <script>
+            const btn = document.getElementById("btn");
+            const container = document.getElementById("container");
+            //停止冒泡，父元素不会接受事件对象
+            //event.stopPropagation();
+            function handler(event){
+                console.log(event.currentTarget); //当前目标，处理事件的元素
+                console.log(event.target);//事件源，事件发生的目标元素，只有一个
+            }
+
+            btn.onclick = handler;
+            container.onclick = handler;
+            document.body.onclick = handler;
+        </script>
+    </body>
+</html>
