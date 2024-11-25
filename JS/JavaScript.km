@@ -313,6 +313,227 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "d5tipf7blhc0",
+                    "created": 1732360953070,
+                    "text": "DOM"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d5tj46nu6c00",
+                            "created": 1732362109940,
+                            "text": "元素节点",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5tiphk0efk0",
+                                    "created": 1732360958190,
+                                    "text": "innerHTML内容"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5tipvi684g0",
+                                            "created": 1732360988554,
+                                            "text": "将元素中的HTML获取为字符串形式"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5tiqjxaens0",
+                                            "created": 1732361041711,
+                                            "text": "document.body.innerHTML = 'The new BODY!'"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5tivs1ngt40",
+                                    "created": 1732361451210,
+                                    "text": "outerHTML内容"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5tivxcmxq00",
+                                            "created": 1732361462758,
+                                            "text": "写入outerHTML不会改变元素，而是在DOM中替换它"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5tj4fttom80",
+                            "created": 1732362129893,
+                            "text": "文本节点"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5tj4hp8xug0",
+                                    "created": 1732362133970,
+                                    "text": "nodeValue"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5tj4llk5r40",
+                                    "created": 1732362142454,
+                                    "text": "data"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5tj4net19c0",
+                                            "created": 1732362146399,
+                                            "text": "读取文本节点的内容"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "d5tj55lsqd40",
+                                            "created": 1732362186004,
+                                            "text": "text.data\n意思是获取text的文本内容"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "d5ufjdpp6zs0",
+                                    "created": 1732453576269,
+                                    "text": "textContent"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "d5ufjh0364g0",
+                                            "created": 1732453583428,
+                                            "text": "对元素内文本的访问权限"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5tiyh99e000",
+                            "created": 1732361662818,
+                            "text": "querySelector"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5tiynwkdew0",
+                                    "created": 1732361677288,
+                                    "text": "获取元素"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5tiytl83i80",
+                                    "created": 1732361689663,
+                                    "text": "document.querySelector（“p”）;\n意思是获取文档中第一个<p>元素"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5tj23rugcw0",
+                            "created": 1732361946923,
+                            "text": "nextSibling"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5tj29oip7k0",
+                                    "created": 1732361959783,
+                                    "text": "返回某个元素之后紧跟的节点"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "d5tj2hklmzc0",
+                                    "created": 1732361976960,
+                                    "text": "document.getElementIByd(\"item1\").nextSibling;\n意思是返回id为item1元素后面的节点"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ufxt7wt7s0",
+                            "created": 1732454707120,
+                            "text": "changeStyle函数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ufy24kk4w0",
+                                    "created": 1732454726509,
+                                    "text": "用于修改CSS样式"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ug1ngjm880",
+                            "created": 1732455008038,
+                            "text": "getElementById"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ug1uts82g0",
+                                    "created": 1732455024076,
+                                    "text": "用于查找特定ID元素"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "d5ug2h6btg00",
+                            "created": 1732455072724,
+                            "text": "changeList函数"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "d5ug2qlzu2o0",
+                                    "created": 1732455093263,
+                                    "text": "用于修改列表项"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
